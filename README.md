@@ -2,22 +2,11 @@
 
 Protótipo navegável para discutir o MVP do módulo administrativo de pagamentos do Governo de Pernambuco. Inclui visão geral, cobranças, cadastro de serviços pagos, conciliação e integrações.
 
-## Executar
+## Acessar
 
-Abra `dist/index.html` no navegador. Não há dependências nem instalação.
+O protótipo é publicado pelo GitHub Pages a partir de `index.html` na raiz da branch `main`.
 
-Para servir localmente, opcionalmente execute:
-
-```bash
-python3 -m http.server 8000 --directory dist
-```
-
-Depois acesse `http://localhost:8000`.
-
-## Publicar no GitHub Pages
-
-1. Em **Settings → Pages → Build and deployment**, selecione **GitHub Actions**.
-2. O workflow `.github/workflows/pages.yml` publicará o conteúdo de `dist/` a cada envio para `main`.
+Para executar localmente, abra `index.html` no navegador. Não há dependências nem instalação.
 
 ## Escopo do protótipo
 
@@ -27,8 +16,5 @@ Antes da implementação produtiva, validar o fluxo do serviço piloto, a config
 
 ## Estrutura
 
-```text
-dist/index.html              Protótipo estático navegável
-.github/workflows/pages.yml  Publicação pelo GitHub Pages
-README.md                    Instruções e limites do protótipo
-```
+- `index.html`: protótipo estático publicado pelo GitHub Pages.
+- `dist/index.html`: cópia do protótipo para empacotamento e desenvolvimento.
