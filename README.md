@@ -1,2 +1,2 @@
-# pe-pay-backoffice
+# Pagamentos-PE-backoffice
 Módulo de Pagamento
